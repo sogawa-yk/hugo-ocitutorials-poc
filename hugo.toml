@@ -13,7 +13,9 @@ disablePathToLower = true
 # Required if you want to render robots.txt template
 enableRobotsTXT = true
 
-geekdocRepo = "https://github.com/thegeeklab/hugo"
+geekdocRepo = "https://github.com/sogawa-yk/hugo-ocitutorials-poc"
+
+enableGitInfo = true
 
 # Needed for mermaid shortcodes
 [markup]
@@ -42,3 +44,7 @@ geekdocRepo = "https://github.com/thegeeklab/hugo"
 [params.geekdocContentLicense]
   name = "日本オラクル株式会社"
   link = "https://www.oracle.com/jp/"
+
+[frontmatter]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+
