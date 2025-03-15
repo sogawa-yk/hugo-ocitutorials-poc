@@ -36,6 +36,8 @@ geekdocRepo = "https://github.com/thegeeklab/hugo"
   geekdocPageLastmod = true
   geekdocTagsToMenu = true
   geekdocBackToTop = true                    # topへ戻るボタン
+  geekdocSearch = true
+  geekdocSearchShowParent = true
 
 [params.geekdocContentLicense]
   name = "日本オラクル株式会社"
