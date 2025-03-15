@@ -1,33 +1,32 @@
 <header class="gdoc-header">
   <div class="container flex align-center justify-between">
     {{ if .MenuEnabled }}
-      <label for="menu-control" class="gdoc-nav__control" tabindex="0">
-        <svg class="gdoc-icon gdoc_menu">
-          <title>{{ i18n "button_nav_open" }}</title>
-          <use xlink:href="#gdoc_menu"></use>
-        </svg>
-        <svg class="gdoc-icon gdoc_arrow_back">
-          <title>{{ i18n "button_nav_close" }}</title>
-          <use xlink:href="#gdoc_arrow_back"></use>
-        </svg>
-      </label>
+    <label for="menu-control" class="gdoc-nav__control" tabindex="0">
+      <svg class="gdoc-icon gdoc_menu">
+        <title>{{ i18n "button_nav_open" }}</title>
+        <use xlink:href="#gdoc_menu"></use>
+      </svg>
+      <svg class="gdoc-icon gdoc_arrow_back">
+        <title>{{ i18n "button_nav_close" }}</title>
+        <use xlink:href="#gdoc_arrow_back"></use>
+      </svg>
+    </label>
     {{ end }}
     <div>
       <a class="gdoc-brand gdoc-header__link" href="{{ .Root.Site.Home.Permalink }}">
         <span class="flex align-center">
-          <img
-            class="gdoc-brand__img"
-            src="{{ (default "brand.svg" .Root.Site.Params.geekdocLogo) | relURL }}"
-            alt=""
-          />
+          <img class="gdoc-brand__img" src="{{ (default " brand.svg" .Root.Site.Params.geekdocLogo) | relURL }}"
+            alt="" />
           <span class="gdoc-brand__title">{{ .Root.Site.Title }}</span>
         </span>
       </a>
     </div>
+    {{ partial "search" .Root }}
+
     <div class="gdoc-menu-header">
       <span class="gdoc-menu-header__items">
         {{ if .Root.Site.Data.menu.extra.header }}
-          {{ partial "menu-extra" (dict "current" .Root "source" .Root.Site.Data.menu.extra.header "target" "header") }}
+        {{ partial "menu-extra" (dict "current" .Root "source" .Root.Site.Data.menu.extra.header "target" "header") }}
         {{ end }}
 
 
@@ -57,7 +56,6 @@
 
         {{ partial "language" .Root }}
 
-        {{ partial "search" . }}
         <span class="gdoc-menu-header__control">
           <label for="menu-header-control">
             <svg class="gdoc-icon gdoc_keyboard_arrow_right">
