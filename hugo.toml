@@ -31,7 +31,7 @@ enableGitInfo = true
    tag = "tags"
 
 [params]
-  customCSS = ["./custom.css"]
+  custom_css = ["./custom.css"]
   favicon = "./img/favicon.ico"
   geekdocLogo = "./img/oracle_favicon.png"
   geekdocMenuBundle = true
@@ -44,7 +44,3 @@ enableGitInfo = true
 [params.geekdocContentLicense]
   name = "日本オラクル株式会社"
   link = "https://www.oracle.com/jp/"
-
-[frontmatter]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
-
