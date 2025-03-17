@@ -5,16 +5,37 @@
     <loc>http://localhost:1313/oci_beginner/</loc>
     <lastmod>2025-03-15T21:48:31+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/oci_beginner/autonomous-database/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/Compute/</loc>
+    <lastmod>2025-03-15T23:38:50+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/oci_beginner/compute/</loc>
-    <lastmod>2025-03-15T21:48:31+09:00</lastmod>
+    <lastmod>2025-03-15T23:38:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/container/</loc>
+  </url><url>
+    <loc>http://localhost:1313/oci_beginner/container-instance/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/database/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/IaaS/</loc>
-    <lastmod>2025-03-15T21:48:31+09:00</lastmod>
+    <lastmod>2025-03-15T23:38:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/Network/</loc>
+  </url><url>
+    <loc>http://localhost:1313/oci_beginner/network/</loc>
+  </url><url>
+    <loc>http://localhost:1313/oci_beginner/oke/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-03-10T04:51:08+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/PaaS/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-03-15T21:48:31+09:00</lastmod>
+    <lastmod>2025-03-15T23:38:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

@@ -168,3 +168,105 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* タグ検索ページのスタイル */
+.tag-search-container {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.tag-filter {
+  flex: 0 0 250px;
+  padding: 1.5rem;
+  background: var(--code-background);
+  border-radius: 4px;
+}
+
+.tag-filter h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--body-font-color);
+}
+
+.tag-checkbox {
+  display: block;
+  margin: 0.8rem 0;
+  cursor: pointer;
+}
+
+.tag-checkbox input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.tag-name {
+  color: var(--body-font-color);
+  font-size: 0.9rem;
+}
+
+.article-cards {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.article-card {
+  background: var(--code-background);
+  border-radius: 4px;
+  padding: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.article-card:hover {
+  transform: translateY(-2px);
+}
+
+.article-title {
+  margin: 0 0 1rem;
+}
+
+.article-title a {
+  color: var(--body-font-color);
+  text-decoration: none;
+}
+
+.article-title a:hover {
+  color: var(--link-color);
+}
+
+.article-meta {
+  color: var(--body-font-color);
+}
+
+.article-description {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.article-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.article-date {
+  font-size: 0.85rem;
+  color: var(--code-copy-font-color);
+}
+
+.article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: var(--button-background);
+  color: var(--header-font-color);
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}

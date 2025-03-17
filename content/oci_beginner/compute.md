@@ -4,7 +4,7 @@ slug: "compute"
 type: docs
 geekdocPageLastmod: true
 geekdocToC: 2
-tags: ["IaaS"]
+tags: ["IaaS", "Compute"]
 ---
 
 # Compute

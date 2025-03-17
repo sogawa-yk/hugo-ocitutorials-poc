@@ -1,0 +1,74 @@
+{{ define "main" }}
+<article class="gdoc-markdown">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}{{ . }}{{ end }}
+
+    <div class="tag-search-container">
+        <div class="tag-filter">
+            <h3>タグフィルター</h3>
+            <form id="tag-filter-form">
+                {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                <label class="tag-checkbox">
+                    <input type="checkbox" name="tag" value="{{ $name }}">
+                    <span class="tag-name">{{ $name }}</span>
+                </label>
+                {{ end }}
+            </form>
+        </div>
+
+        <div class="article-cards">
+            {{ range .Site.RegularPages }}
+            <div class="article-card" data-tags="{{ delimit (or .Params.tags (slice)) "," }}">
+                <h3 class="article-title">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h3>
+                <div class="article-meta">
+                    {{ with .Description }}
+                    <p class="article-description">{{ . }}</p>
+                    {{ end }}
+                    <div class="article-info">
+                        <div class="article-date">
+                            {{ partial "page-metadata" . }}
+                        </div>
+                        {{ with .Params.tags }}
+                        <div class="article-tags">
+                            {{ range . }}
+                            <span class="tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</article>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('tag-filter-form');
+    if (form) {
+        form.addEventListener('change', function() {
+            var selectedTags = Array.from(document.querySelectorAll('input[name="tag"]:checked')).map(function(checkbox) {
+                return checkbox.value;
+            });
+
+            var articles = document.querySelectorAll('.article-card');
+            articles.forEach(function(article) {
+                var tags = article.getAttribute('data-tags').split(',').map(function(tag) {
+                    return tag.trim();
+                });
+                // AND検索の実装（選択されたタグがない場合は全て表示）
+                var show = selectedTags.length === 0 || (tags && tags[0] !== "" && selectedTags.every(function(tag) {
+                    return tags.some(function(articleTag) {
+                        return articleTag.toLowerCase() === tag.toLowerCase();
+                    });
+                }));
+                article.style.display = show ? '' : 'none';
+            });
+        });
+    }
+});
+</script>
+{{ end }}

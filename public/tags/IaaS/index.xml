@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IaaS on OCIチュートリアル</title>
-    <link>http://localhost:1313/tags/IaaS/</link>
+    <link>http://localhost:34541/tags/IaaS/</link>
     <description>Recent content in IaaS on OCIチュートリアル</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <atom:link href="http://localhost:1313/tags/IaaS/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34541/tags/IaaS/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>compute入門編</title>
-      <link>http://localhost:1313/oci_beginner/compute/</link>
+      <link>http://localhost:34541/oci_beginner/compute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/oci_beginner/compute/</guid>
-      <description>&lt;div class=&#34;flex align-center gdoc-page__anchorwrap&#34;&gt;&#xA;    &lt;h1 id=&#34;compute&#34;&#xA;    &gt;&#xA;        Compute&#xA;    &lt;/h1&gt;&#xA;    &lt;a data-clipboard-text=&#34;http://localhost:1313/oci_beginner/compute/#compute&#34; class=&#34;gdoc-page__anchor clip flex align-center&#34; title=&#34;Anchor to: Compute&#34; aria-label=&#34;Anchor to: Compute&#34; href=&#34;#compute&#34;&gt;&#xA;        &lt;svg class=&#34;gdoc-icon gdoc_link&#34;&gt;&lt;use xlink:href=&#34;#gdoc_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Compute&lt;/p&gt;</description>
+      <guid>http://localhost:34541/oci_beginner/compute/</guid>
+      <description>&lt;div class=&#34;flex align-center gdoc-page__anchorwrap&#34;&gt;&#xA;    &lt;h1 id=&#34;compute&#34;&#xA;    &gt;&#xA;        Compute&#xA;    &lt;/h1&gt;&#xA;    &lt;a data-clipboard-text=&#34;http://localhost:34541/oci_beginner/compute/#compute&#34; class=&#34;gdoc-page__anchor clip flex align-center&#34; title=&#34;Anchor to: Compute&#34; aria-label=&#34;Anchor to: Compute&#34; href=&#34;#compute&#34;&gt;&#xA;        &lt;svg class=&#34;gdoc-icon gdoc_link&#34;&gt;&lt;use xlink:href=&#34;#gdoc_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Compute&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>network入門編</title>
+      <link>http://localhost:34541/oci_beginner/network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:34541/oci_beginner/network/</guid>
+      <description>&lt;div class=&#34;flex align-center gdoc-page__anchorwrap&#34;&gt;&#xA;    &lt;h1 id=&#34;network&#34;&#xA;    &gt;&#xA;        Network&#xA;    &lt;/h1&gt;&#xA;    &lt;a data-clipboard-text=&#34;http://localhost:34541/oci_beginner/network/#network&#34; class=&#34;gdoc-page__anchor clip flex align-center&#34; title=&#34;Anchor to: Network&#34; aria-label=&#34;Anchor to: Network&#34; href=&#34;#network&#34;&gt;&#xA;        &lt;svg class=&#34;gdoc-icon gdoc_link&#34;&gt;&lt;use xlink:href=&#34;#gdoc_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Network&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

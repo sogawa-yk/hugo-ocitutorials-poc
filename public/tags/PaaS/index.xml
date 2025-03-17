@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PaaS on OCIチュートリアル</title>
+    <link>http://localhost:1313/tags/PaaS/</link>
+    <description>Recent content in PaaS on OCIチュートリアル</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/tags/PaaS/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OKE入門編</title>
+      <link>http://localhost:1313/oci_beginner/oke/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/oci_beginner/oke/</guid>
+      <description>&lt;div class=&#34;flex align-center gdoc-page__anchorwrap&#34;&gt;&#xA;    &lt;h1 id=&#34;oke&#34;&#xA;    &gt;&#xA;        OKE&#xA;    &lt;/h1&gt;&#xA;    &lt;a data-clipboard-text=&#34;http://localhost:1313/oci_beginner/oke/#oke&#34; class=&#34;gdoc-page__anchor clip flex align-center&#34; title=&#34;Anchor to: OKE&#34; aria-label=&#34;Anchor to: OKE&#34; href=&#34;#oke&#34;&gt;&#xA;        &lt;svg class=&#34;gdoc-icon gdoc_link&#34;&gt;&lt;use xlink:href=&#34;#gdoc_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;OKE&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
